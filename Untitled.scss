@@ -167,8 +167,26 @@ body > * {
   border-right:2px solid $borderColor;
   height:100vh;
   padding-top:20px;
+  font-family: 'Montserrat';
   ul {
     list-style:none;
+    li {
+      display: table;
+      vertical-align: middle;
+      width: 100%;
+      margin:20px 0;
+     	.icon {
+        width: 40px;
+        height: 24px;
+        background-size: contain;
+        display: table-cell !important;
+        &.timesheet {
+       		background: url(https://pingendo.com/raw/aguher/novatracker/master/icon1.PNG) no-repeat scroll 0 0 transparent;   
+        }
+      }        
+    }
+      
+      
   }
   
 }
