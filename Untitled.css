@@ -6016,6 +6016,19 @@ body > * {
 .menu {
   border-right: 2px solid #edeff3;
   height: 100vh;
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-family: 'Montserrat'; }
   .menu ul {
     list-style: none; }
+    .menu ul li {
+      display: table;
+      vertical-align: middle;
+      width: 100%;
+      margin: 20px 0; }
+      .menu ul li .icon {
+        width: 40px;
+        height: 24px;
+        background-size: contain;
+        display: table-cell !important; }
+        .menu ul li .icon.timesheet {
+          background: url(https://pingendo.com/raw/aguher/novatracker/master/icon1.PNG) no-repeat scroll 0 0 transparent; }
