@@ -146,7 +146,7 @@ $small-font-size: 80% !default;
 
 $blockquote-font-size:    ($font-size-base * 1.25) !default;
 
-
+$borderColor: #edeff3;
 
 @import 'bootstrap-4.0.0-alpha.6';
 
@@ -158,23 +158,16 @@ body > * {
   background-repeat: none;
   background-position: center ;
 }
-
 .navbar {
-  border-bottom:2px solid #edeff3;
- 	height:90px;
-  margin:0;
-  padding:0;
-  .container {
-    display:block;
-    .navbar-brand {
-      display:inline-block;
-    }
-		.justify-content-end {
-      display: inline-block !important;
-    	float: right;
-    }
-    .logout {
-      background: #F8F9FC;
-    }
+  background: #FFFFFF;
+  border-bottom:2px solid $borderColor;
+}
+
+.menu {
+  border-right:2px solid $borderColor;
+  height:100vh;
+  ul {
+    list-style:none;
   }
+  
 }
