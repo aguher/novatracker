@@ -180,8 +180,12 @@ body > * {
         height: 24px;
         background-size: contain;
         display: table-cell !important;
+        background-repeat: no-repeat;
         &.timesheet {
-       		background: url(https://pingendo.com/raw/aguher/novatracker/master/icon1.PNG) no-repeat scroll 0 0 transparent;   
+       		background-image: url(https://pingendo.com/raw/aguher/novatracker/master/icon1.PNG);   
+        }
+        &.skills {
+       		background-image: url(https://pingendo.com/raw/aguher/novatracker/master/icon2.PNG);   
         }
       }        
     }
