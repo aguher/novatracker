@@ -6029,6 +6029,9 @@ body > * {
         width: 40px;
         height: 24px;
         background-size: contain;
-        display: table-cell !important; }
+        display: table-cell !important;
+        background-repeat: no-repeat; }
         .menu ul li .icon.timesheet {
-          background: url(https://pingendo.com/raw/aguher/novatracker/master/icon1.PNG) no-repeat scroll 0 0 transparent; }
+          background-image: url(https://pingendo.com/raw/aguher/novatracker/master/icon1.PNG); }
+        .menu ul li .icon.skills {
+          background-image: url(https://pingendo.com/raw/aguher/novatracker/master/icon2.PNG); }
