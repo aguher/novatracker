@@ -6015,6 +6015,7 @@ body > * {
 
 .menu {
   border-right: 2px solid #edeff3;
-  height: 100vh; }
+  height: 100vh;
+  padding-top: 20px; }
   .menu ul {
     list-style: none; }
