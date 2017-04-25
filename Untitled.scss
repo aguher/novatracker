@@ -162,7 +162,19 @@ body > * {
 .navbar {
   border-bottom:2px solid #edeff3;
  	height:90px;
-  .logout {
-    background: #F8F9FC;
+  margin:0;
+  padding:0;
+  .container {
+    display:block;
+    .navbar-brand {
+      display:inline-block;
+    }
+		.justify-content-end {
+      display: inline-block !important;
+    	float: right;
+    }
+    .logout {
+      background: #F8F9FC;
+    }
   }
 }
