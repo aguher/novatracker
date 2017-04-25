@@ -6010,16 +6010,11 @@ body > * {
   background-position: center; }
 
 .navbar {
-  border-bottom: 2px solid #edeff3;
-  height: 90px;
-  margin: 0;
-  padding: 0; }
-  .navbar .container {
-    display: block; }
-    .navbar .container .navbar-brand {
-      display: inline-block; }
-    .navbar .container .justify-content-end {
-      display: inline-block !important;
-      float: right; }
-    .navbar .container .logout {
-      background: #F8F9FC; }
+  background: #FFFFFF;
+  border-bottom: 2px solid #edeff3; }
+
+.menu {
+  border-right: 2px solid #edeff3;
+  height: 100vh; }
+  .menu ul {
+    list-style: none; }
